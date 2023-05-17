@@ -1,3 +1,5 @@
+/*--- nav bar and home page ---*/
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(agent-background-generic.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -108,3 +110,67 @@ button:hover span{
 button:hover{
     border: none;
 }
+
+.section1{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #E91E63;
+}
+
+/*--- game info ---*/
+
+.gameinfo{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0  ;
+}
+
+.gameinfo-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.gameinfo-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gameinfo-col p{
+    padding: 0;
+}
+
+.gameinfo-col button{
+    background-color: #e53935; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+  border: none; /* Remove the button border */
+  border-radius: 4px; /* Add rounded corners */
+  padding: 8px 16px; /* Add padding to the button */
+  font-size: 14px; /* Adjust the font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  text-align: center;
+}
+
+.gameinfo-col button:hover{
+    background-color: #c62828;
+}
+
