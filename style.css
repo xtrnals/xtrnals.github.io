@@ -122,6 +122,7 @@
         color: #E91E63;
     }
 
+
     /*--- game info ---*/
 
     .gameinfo{
@@ -130,7 +131,12 @@
         text-align: center;
         padding-top: 100px;
         min-height: 100vh;
+        background-image: url("bodybg.png");
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
     }
+    
 
     .row{
         margin-top: 5%;
@@ -183,6 +189,10 @@
         text-align: center;
         padding-top: 50px;
         min-height: 100vh;
+        background-image: url("bodybg.png");
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
     }
 
     .news-col{
@@ -250,11 +260,15 @@
     /*--- Reviews ---*/
     
     .reviews{
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    text-align: center;
-    min-height: 100vh;
+        width: 80%;
+        margin: auto;
+        padding-top: 100px;
+        text-align: center;
+        min-height: 100vh;
+        background-image: url("bodybg.png");
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
     }
 
     .row-col{
@@ -293,7 +307,7 @@
     .support{
         margin: 100px auto;
         width: 80%;
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(support\ background.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(support\ background.jpg), url(bodybg.png);
         background-position: center;
         background-size: cover;
         border-radius: 10px;
@@ -331,6 +345,11 @@
         width: 100%;
         text-align: center;
         padding: 30px 0;
+        background-image: url("footerbg.jpg");
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
+        color: #fff;
     }
 
     .footer h4{
