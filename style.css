@@ -129,6 +129,7 @@
         margin: auto;
         text-align: center;
         padding-top: 100px;
+        min-height: 100vh;
     }
 
     .row{
@@ -181,6 +182,7 @@
         margin: auto;
         text-align: center;
         padding-top: 50px;
+        min-height: 100vh;
     }
 
     .news-col{
@@ -243,6 +245,7 @@
     .see-article:hover{
         background-color: #c62828;
     }
+    
 
     /*--- Reviews ---*/
     
@@ -251,6 +254,7 @@
     margin: auto;
     padding-top: 100px;
     text-align: center;
+    min-height: 100vh;
     }
 
     .row-col{
@@ -341,3 +345,5 @@
         cursor: pointer;
         padding: 18px 0;
     }
+
+   
