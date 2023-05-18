@@ -6,19 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insert Game Title Here</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <!---Home Page--->
 <section>
-    <div class="banner">
+    <div id="banner" class="banner">
         <div class="navbar">
             <img src="logo.png" width="1000" height="125" class="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Game Info</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Merch</a></li>
-                <li><a href="#">Reviews</a></li>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#gameinfo">Game Info</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#support">Support</a></li>
             </ul>
         </div>
 
@@ -35,7 +39,7 @@
 
     <!---Game Info--->
 
-    <section class="gameinfo">
+    <section id="gameinfo" class="gameinfo">
         <h1>Game Info</h1>
         <p>Learn about Valorant: a competitive, team-based first-person shooter (FPS) game developed by Riot Games.</p>
         
@@ -64,6 +68,93 @@
                 <button type="button"><span></span>Learn More</button>
                 </a>
             </div>
+        </div>
+    </section>
+
+    <!---News--->
+
+    <section id="news" class="news">
+        <h1>News</h1>
+        <p>Stay updated with our Valorant News page! Get the latest agent reveals, balance changes, and more. Dive into the dynamic world of Valorant and never miss a beat.</p>
+    
+        <div class="row">
+            <div class="news-col">
+                <img src="news1.jpg">
+                <div class="layer">
+                    <h3>Challengers Ascension is Coming!</h3>
+                    <a href="https://valorantesports.com/news/challengers-ascension-is-coming/" class="see-article">See Article</a>
+                </div>
+            </div>
+            <div class="news-col">
+                <img src="news2.jpg">
+                <div class="layer">
+                    <h3>VALORANT Data Drop: Phantom VS. Vandal</h3>
+                    <a href="https://playvalorant.com/en-gb/news/dev/valorant-data-drop-phantom-vs-vandal/" class="see-article">See Article</a>
+                </div>
+            </div>
+            <div class="news-col">
+                <img src="news3.jpg">
+                <div class="layer">
+                    <h3>Game Changers EMEA - Greatness Comes From Within</h3>
+                    <a href="https://www.youtube.com/watch?v=9UUurgLqXjs" class="see-article">See Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Reviews--->
+    
+    <section id="reviews" class="reviews">
+        <h1>Our Reviews</h1>
+        <p>Explore player reviews of Valorant. Hear firsthand experiences and opinions about this captivating FPS. Join the discussion and share your thoughts.</p>
+        
+        <div class="row">
+            <div class="row-col">
+                <img src="user1.png">
+                <div>
+                    <h1>9/10</h1>
+                    <p>Valorant is a clever tactical hero shooter that’s plenty deep, and a lot of fun to master.</p>                    
+                    <h3>- IGN</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="row-col">
+                <img src="user2.jpg">
+                <div>
+                    <h1>8.5/10</h1>
+                    <p>Valorant builds on what has made Counter-Strike a destination for decades. It adds hero-shooter nuance to a familiar arsenal of weapons. Valorant is a methodical, strategic affair; a stealthy and careful approach takes priority over going in guns-blazing.</p>                    
+                    <h3>- Game Informer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Support--->
+    
+    <section id="support" class="support">
+        <h1>Get Valorant support with our dedicated section. <br>Find answers, troubleshoot issues, and reach out to our team for assistance.</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!---Footer--->
+
+    <section class="footer">
+        <h4>Riot Games</h4>
+        <p>© 2023 Riot Games, Inc. Riot Games, VALORANT, and any associated logos are trademarks, service<br> marks, and/or registered trademarks of Riot Games, Inc.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
         </div>
     </section>
 </body>
